@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Resized Image</title>
+</head>
+<body>
+    <center>
+        <h1>Your Image has been Resized!</h1>
+        <p>Original Image:</p>
+        <a href="{{ original }}" download>Download Original Image</a>
+    <br>
+    <br>
+    <hr>
+        <p>Resized Small Image (100x100):</p>
+        <img src="{{ resized_small }}" alt="Resized Small Image">
+        <br>
+        <a href="{{ resized_small }}" download>Download Small Image</a>
+    <br>
+    <br>
+    <hr>
+        <p>Resized Medium Image (300x300):</p>
+        <img src="{{ resized_medium }}" alt="Resized Medium Image">
+        <br>
+        <a href="{{ resized_medium }}" download>Download Medium Image</a>
+    
+        <br><br>
+    <br>
+    <br>
+        <a class="back-link" href="{% url 'upload' %}">Upload Another Image</a>
+    </center>
+ 
+</body>
+</html>

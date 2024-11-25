@@ -1,0 +1,50 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+env/
+
+# Django stuff
+*.log
+*.pot
+db.sqlite3
+media/
+
+# Local settings
+*.local_settings.py
+
+# Secret files
+*.env
+
+# VSCode settings (if you're using VSCode)
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Python cache and dist files
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# IDE-specific files
+.idea/
+*.iml
+
+# Coverage and test reports
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.pytest_cache
+
+# Static and media files
+staticfiles/
+mediafiles/
